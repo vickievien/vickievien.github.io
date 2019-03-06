@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Playfair+Display:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+nav a {
+  color: #051033;
+  text-decoration: none;
+}
+
+h1  {
+  color: #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Open Sans", serif;
+}
+
+header {
+  display: flex;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px
+}
+
+section {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+section h3 {
+  font-size: 12px;
+  letter-spacing: 0.5px
+  color: #051033;
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+footer {
+  border-top: 1px solid rgba(122, 131, 142, 0.6);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer li {
+  margin-right: 15px;
+}
+
+footer a {
+  color: rgba(122, 131, 142, 0.6);
+  text-decoration: none;
+}
+
+.btn {
+  color: black;
+  border: 1px solid white;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 30px 15px;
+  font-weight: bold;
+}
+
+.btn_main {
+  color: white;
+  border: 0px solid white;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: #003bde;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+
+#left-col {
+  background-image: url(https://images.unsplash.com/photo-1478719050108-41b67a7bc956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 60px 60px;
+  width: 50%;
+}
+
+#right-col {
+  background-image: url(https://images.unsplash.com/photo-1542042238232-3a0b14425b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 60px 60px;
+  width: 50%
+}
