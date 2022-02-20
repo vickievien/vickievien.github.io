@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wandering Wanderlust</title>
+  <link rel="icon" type="image/svg" href="logo/ww_favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="ww-header">
+        <nav class="ww-nav-container">
+            <div class="ww-logo-container">
+                <a href="index.html" class="ww-logo"><img src="./logo/ww_logo_white.svg"></a>
+                <h2 class="logo-japan-edit">Japan Edition</h2>
+            </div>
+            <div class="ww-burger-list-container">
+                <a class="ww-nav-burger" href="#">&#9776;</a>
+                <ul class=ww-nav-list>
+                    <li class="ww-nav-list-items "><a href="index.html">Home</a></li>
+                    <li class="ww-nav-list-items"><a href="cities.html">Cities</a></li>
+                    <li class="ww-nav-list-items"><a href="foods.html">Foods</a></li>
+                    <li class="ww-nav-list-items"><a href="facts.html">Facts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="ww-food-section">
+        <hgroup class="ww-food-head">
+            <h2 class="ww-food-title">Must-Try Foods from Japan</h2>
+            <h3 class="ww-food-subtitle">From sushi to yakitori and wagyu, find these dishes to try all across Japan's restaurants</h3>
+        </hgroup>
+        <section class="food-filter-container">
+            <h2 class="food-filter-title">Filter dishes by:</h2>
+            <form>
+                <select id="food-filter">
+                    <option value="all">All</option>
+                </select>
+            </form>
+        </section>
+    </section>
+
+    <section class="ww-food-grid-container">
+        <article class="ww-food-card-container seafood">
+            <img class="ww-food-image" src="photos/foods/sushi-640.jpg" alt="sushi">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Sushi<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Sushi" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+                
+            </div>
+        </article>
+          
+        <article class="ww-food-card-container seafood meat veggie">
+            <img class="ww-food-image" src="photos/foods/kaiseki-640.jpg" alt="kaiseki">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Kaiseki<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-fish"></i>
+                        <i class="fas fa-carrot"></i>
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Kaiseki" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+            </div>
+        </article>
+          
+        <article class="ww-food-card-container seafood">
+            <img class="ww-food-image" src="photos/foods/unagi-640.jpg" alt="unagi">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Unagi<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Unagi" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+            </div>
+        </article>
+
+        <article class="ww-food-card-container meat">
+            <img class="ww-food-image" src="photos/foods/wagyu-sushi-640.jpg" alt="wagyu">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Wagyu<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Wagyu" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+            </div>
+        </article>
+
+        <article class="ww-food-card-container seafood veggie">
+            <img class="ww-food-image" src="photos/foods/tempura-640.jpg" alt="tempura">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Tempura<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-fish"></i>
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Tempura" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+            </div>
+        </article>
+
+        <article class="ww-food-card-container meat">
+            <img class="ww-food-image" src="photos/foods/yakitori-640.jpg" alt="yakitori">
+            <div class="ww-food-text-wrap">
+                <div class="ww-food-title-wrap">
+                    <h3 class="ww-food-card-title">Yakitori<i class="fas fa-angle-down"></i></h3>
+                    <div class="food-icon-wrap">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                </div>
+                <p class="food-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur laborum accusantium unde facilis, suscipit soluta totam reprehenderit quis, laudantium officia expedita necessitatibus maxime consectetur ut excepturi distinctio voluptate amet? Similique?
+                    <a href="https://www.tableall.com/restaurants/genre/Yakitori" target="_blank" class="food-btn ">Explore Restaurants</a>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <footer class="ww-footer-section">
+        <div class="ww-footer-left">
+            <nav class="ww-footer-social-nav">
+                <ul class="ww-footer-social-list">
+                    <li class="ww-social-list-item"><i class="fab fa-instagram"></i></li>
+                    <li class="ww-social-list-item"><i class="fab fa-facebook"></i></li>
+                    <li class="ww-social-list-item"><i class="fab fa-twitter"></i></li>
+                </ul>
+            </nav>
+            <nav class="ww-footer-link-nav">
+                <ul class="ww-footer-link-list">
+                    <li class="ww-link-list-item"><a href="#">Info</a></li>
+                    <li class="ww-link-list-item"><a href="#">Support</a></li>
+                    <li class="ww-link-list-item"><a href="#">Term of Use</a></li>
+                    <li class="ww-link-list-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <small>&copy; 2021 The Wandering Wanderlust</small>
+        </div>
+        <div class="ww-footer-right">
+            <form action="#" method="post" class="ww-subscribe-form">
+                <fieldset class="ww-form-wrap">
+                    <legend class="ww-form-title">Subscribe Now</legend>
+                    <div class="email-submit-container">
+                        <input type="email" name="email" id="email" placeholder="Your e-mail here">
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/foods.js"></script>
+</body>
+
+</html>
