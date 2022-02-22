@@ -2,10 +2,6 @@ body.portfolio-body {
     background: none;
 }
 
-.main-body {
-    padding-top: 100px;
-}
-
 .port-grid {
     display: grid;
     grid-template-columns: 1fr;
