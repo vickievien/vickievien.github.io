@@ -1,0 +1,66 @@
+.main-body-bio {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 100px;
+}
+
+.bio-title {
+    margin-bottom: 25px;
+}
+
+.vv-bio-pic {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bio-text {
+    margin-top: 25px;
+    line-height: 28px;
+}
+
+.vv-bio-signature {
+    width: 45%;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-body-bio {
+        display: grid;
+        grid-template-columns: 6fr 7fr;
+        gap: 20px;
+        width: 80%;
+        padding-top: 125px;
+    }
+    .bio-title {
+        grid-column-start: 2;
+        text-align: left;
+        margin: 0;
+    }
+    .vv-bio-pic {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+    }
+    .bio-text {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-body-bio {
+        width: 60%;
+        grid-template-columns: 2fr 3fr;
+        margin: 0 auto;
+    }
+    .bio-title {
+        align-self: end;
+    }
+    .bio-title br {
+        display: none;
+    }
+    .vv-bio-signature {
+        width: 35%;
+    }
+}
