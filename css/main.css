@@ -142,10 +142,11 @@ a:visited {
     }
     .right-nav-list {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         z-index: 0;
         position: static;
+        opacity: 1;
     }
     .nav-item {
         display: block;
