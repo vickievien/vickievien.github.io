@@ -102,14 +102,17 @@ input[type="submit"] {
     margin-top: 15px;
     text-transform: uppercase;
     border: none;
-    background-color: white;
-    color: var(--dark-gray);
+    border-radius: 5px;
+    padding: 10px 45px;
+    box-shadow: 2px 2px 5px rgb(230, 230, 230);
+    background-color: black;
+    color: white;
     letter-spacing: 0.1rem;
     transition: 1s ease-in-out;
 }
 
 input[type="submit"]:hover {
-    background-color: rgba(247, 192, 237, 0.843);
+    background-color: rgba(207, 159, 198, 0.918);
 }
 
 @media only screen and (min-width: 768px) {
