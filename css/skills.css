@@ -41,9 +41,26 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .main-body {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
     .skills-grid {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
         width: 90%;
+    }
+}
+
+
+/* FOOTER CHANGES FOR SKILLS PAGE */
+@media only screen and (min-width: 1200px) {
+    footer {
+        position: absolute;
     }
 }

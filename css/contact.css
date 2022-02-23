@@ -4,7 +4,7 @@
 
 /* CONTACT TEXT SECTION */
 .contact-text-section {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
 }
 
@@ -24,13 +24,11 @@
 }
 
 .connect a {
-    /* text-decoration: underline; */
     text-transform: none;
     font-weight: 400;
 }
 
 /* FORM SECTION */
-
 .contact-form-section {
     margin-top: 40px;
 }
@@ -115,9 +113,20 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 768px) {
+    .main-body {
+        padding-top: 125px;
+    }
+    .contact-text-section {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
+    .contact-text-section {
+        font-size: 20px;
+        line-height: 32px;
+    }
     .contact-grid {
         padding: 40px 0;
         width: 65%;
@@ -130,5 +139,12 @@ input[type="submit"]:hover {
     }
     .contact-form-section .connect {
         margin: 0;
+    }
+}
+
+/* FOOTER CHANGES TO CONTACT PAGE */
+@media only screen and (min-width: 768px) {
+    footer {
+        position: absolute;
     }
 }

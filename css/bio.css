@@ -28,7 +28,7 @@
         grid-template-columns: 6fr 7fr;
         gap: 20px;
         width: 80%;
-        padding-top: 125px;
+        padding-top: 150px;
     }
     .bio-title {
         grid-column-start: 2;
@@ -45,6 +45,8 @@
     }
     .bio-text {
         margin: 0;
+        font-size: 18px;
+        line-height: 30px;
     }
 }
 
@@ -60,7 +62,24 @@
     .bio-title br {
         display: none;
     }
+    .bio-text {
+        font-size: 20px;
+        line-height: 32px;
+    }
     .vv-bio-signature {
         width: 35%;
+    }
+}
+
+/* FOOTER CHANGES TO BIO PAGE */
+@media only screen and (min-width: 768px) {
+    footer {
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        position: relative;
     }
 }

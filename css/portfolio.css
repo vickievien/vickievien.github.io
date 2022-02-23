@@ -100,7 +100,7 @@ body.portfolio-body {
 
 @media only screen and (min-width: 768px) {
     .port-grid {
-        grid-template-columns: 10fr 9fr;
+        grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
     .proj-text-container {
@@ -114,6 +114,13 @@ body.portfolio-body {
     .proj-title,
     .proj-caption {
         text-align: left;
+    }
+    .proj-title {
+        font-size: 30px;
+    }
+    .proj-caption {
+        font-size: 18px;
+        line-height: 30px;
     }
     .proj-button {
         margin-left: 0;
