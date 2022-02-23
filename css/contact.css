@@ -4,6 +4,7 @@
 
 /* CONTACT TEXT SECTION */
 .contact-text-section {
+    font-size: 20px;
     line-height: 28px;
 }
 
@@ -12,9 +13,9 @@
 }
 
 .connect {
-    margin-top: 10px;
+    margin-top: 15px;
     line-height: 24px;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 
@@ -23,14 +24,19 @@
 }
 
 .connect a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-transform: none;
     font-weight: 400;
 }
 
 /* FORM SECTION */
+
 .contact-form-section {
     margin-top: 40px;
+}
+
+.contact-form-section .connect {
+    font-weight: 400;
 }
 
 form {
@@ -71,6 +77,7 @@ textarea {
     min-height: 100px;
     resize: vertical;
     overflow: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 input::placeholder,
@@ -94,7 +101,7 @@ textarea::placeholder {
 
 input[type="submit"] {
     padding: 10px 25px;
-    margin-top: 10px;
+    margin-top: 15px;
     text-transform: uppercase;
     border: none;
     background-color: white;
@@ -108,8 +115,20 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
 }
 
 @media only screen and (min-width: 1200px) {
+    .contact-grid {
+        padding: 40px 0;
+        width: 65%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 75px;
+    }
+    .contact-form-section {
+        margin: 0;
+    }
+    .contact-form-section .connect {
+        margin: 0;
+    }
 }
