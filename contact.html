@@ -58,20 +58,38 @@
             <h1 class="page-title">Contact</h1>
             <section class="global-grid contact-grid">
                 <section class="contact-text-section">
-                    <p>I enjoy building relationships with dedicated individuals who want to make this world a better place.
-                    <br />
-                    <br />Two minds are better than one. Let's connect!</p>
-                    
-                    <p>Find me in my inbox:<br /><i class="far fa-envelope"></i> vickievien@gmail.com</p>
-                                        
-                    <p>Connect with me:<br />
-                        <i class="fab fa-linkedin"></i><a href="www.linkedin.com/in/vickie-vien"> www.linkedin.com/in/vickie-vien</a></p>
-
-                    <p>See all my commits:<br />
-                        <i class="fab fa-github"></i><a href="www.github.com/vickievien"> www.github.com/vickievien</a></p>                    
-                        
+                    <p class="contact-text-caption">I enjoy building relationships with dedicated individuals who want to make this world a better place. Two minds are better than one. Let's connect!</p>
+                    <p class="connect">Find me in my inbox:<br />
+                        <i class="far fa-envelope"></i><a href="mailto:vickievien@gmail.com">vickievien@gmail.com</a>
+                    </p>                                        
+                    <p class="connect">Connect with me:<br />
+                        <i class="fab fa-linkedin"></i><a href="www.linkedin.com/in/vickie-vien">www.linkedin.com/in/vickie-vien</a>
+                    </p>
+                    <p class="connect">See all my commits:<br />
+                        <i class="fab fa-github"></i><a href="www.github.com/vickievien">www.github.com/vickievien</a>
+                    </p>                    
                 </section>
-                <section class="contact-form-section"></section>
+
+                <section class="contact-form-section">
+                    <p class="connect">Send me a message:</p>  
+                    <form action="#" method="post" class="contact-form">
+                        <fieldset class="contact-form-container">
+                            <div class="form-row">
+                                <input type="text" name="fname" id="fname" required="required" placeholder="First Name">
+                                <input type="text" name="lname" id="lname" required="required" placeholder="Last Name">
+                            </div>
+                            <div class="form-row">
+                                <input type="email" name="email" id="email" required="required" placeholder="Email">
+                            </div>
+                            <div class="form-row">
+                                <textarea name="message" id="message" required="required" placeholder="Type your message here."></textarea>
+                            </div>
+                            <div class="">
+                                <input type="submit" value="submit">
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
             </section>
         
         </main>
