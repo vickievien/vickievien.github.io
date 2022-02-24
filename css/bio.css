@@ -97,14 +97,6 @@
 
 
 /* FOOTER CHANGES TO BIO PAGE */
-/* @media only screen and (min-width: 768px) {
-    footer {
-        position: absolute;
-    }
+footer {
+    border-top: none;
 }
-
-@media only screen and (min-width: 1200px) {
-    footer {
-        position: relative;
-    }
-} */

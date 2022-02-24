@@ -6,6 +6,7 @@ body.portfolio-body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    padding-bottom: 75px;
 }
 
 .proj-pic-a {
@@ -99,6 +100,9 @@ body.portfolio-body {
 
 
 @media only screen and (min-width: 768px) {
+    .main-body.main-portfolio {
+        /* padding: 0; */
+    }
     .port-grid {
         grid-template-columns: 1fr 1fr;
         gap: 25px;
