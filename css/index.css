@@ -75,10 +75,6 @@ body.portfolio-body {
     background: none;
 }
 
-/* .main-portfolio .portfolio-title {
-    margin-bottom: 50px;
-} */
-
 .port-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -277,7 +273,7 @@ body.portfolio-body {
     padding-top: 75px;
 }
 
-.page-title {
+.main-contact .page-title {
     margin-bottom: 30px;
 }
 
@@ -340,7 +336,7 @@ body.portfolio-body {
     }
     .contact-text-caption {
         text-align: left;
-        padding: 20px 0;
+        padding: 0 0 20px 0;
     }
     .contact-icon-container {
         margin: 0 auto;
