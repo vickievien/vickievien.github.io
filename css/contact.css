@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
 .far,
@@ -32,7 +33,12 @@
 
 /* FORM SECTION */
 .contact-form-section {
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.contact-form-title {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 form {
@@ -157,6 +163,9 @@ input[type="submit"]:hover {
         width: 90%;
         margin: 40px auto 0 auto;
     }
+    .contact-form-title {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -185,8 +194,8 @@ input[type="submit"]:hover {
         margin: 0;
         width: 100%;
     }
-    .contact-form-section .connect {
-        margin: 0;
+    .contact-form-title {
+        font-size: 20px;
     }
 }
 

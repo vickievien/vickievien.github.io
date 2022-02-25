@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
     
         document.querySelector('.right-nav-list').classList.toggle('nav-toggle');
 
+        const navItems = document.querySelectorAll('.nav-item');
+
+        for (const n of navItems) {
+            n.classList.toggle('nav-toggle');
+        }
+
     }
     
     const burger = document.querySelector('.burger');

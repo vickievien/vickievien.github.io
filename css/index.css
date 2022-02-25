@@ -252,19 +252,19 @@ body.portfolio-body {
 }
 
 @media only screen and (min-width: 1200px) {
-    .main-body {
-        height: 90vh;
+    .main-body.main-skills {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
+        padding: 100px 0 125px 0;
+        margin-bottom: 0;
     }
-
     .skills-grid {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
         width: 90%;
+        padding-bottom: 0;
     }
     .skill-item {
         font-size: 20px;
@@ -272,144 +272,78 @@ body.portfolio-body {
 }
 
 /* CONNECT WITH ME SECTION */
+.main-contact {
+    margin-bottom: 75px;
+    padding-top: 75px;
+}
+
+.page-title {
+    margin-bottom: 30px;
+}
+
 .contact-text-section {
     font-size: 16px;
     line-height: 28px;
 }
 
 .contact-text-caption {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .connect {
-    margin-top: 15px;
-    line-height: 24px;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.connect i {
-    margin-right: 7px;
-}
-
-.connect a {
-    text-transform: none;
-    font-weight: 400;
-}
-
-/* FORM SECTION */
-.contact-form-section {
-    margin-top: 40px;
-}
-
-.contact-form-section .connect {
-    font-weight: 400;
-}
-
-form {
-    margin-top: 10px;
-}
-
-.contact-form-container {
-    border: none;
-}
-
-input,
-textarea {
-    border: 1px solid black;
-    background-color: rgb(255, 255, 255);
-}
-
-input:focus,
-textarea:focus {
-    outline: none;
-}
-
-.form-row {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
 
-#email,
-#message {
-    width: 100%;
-}
-
-.form-row input,
-.form-row textarea {
-    width: 50%;
-    padding: 15px 15px;
-}
-
-textarea {
-    min-height: 100px;
-    resize: vertical;
-    overflow: auto;
-    font-family: 'Lato', sans-serif;
-}
-
-input::placeholder,
-textarea::placeholder {
-    text-transform: uppercase;
-    font-size: 10px;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.1rem;
-    font-weight: 300;
-    color: black;
-}
-
-#fname {
-    border-right: none;
-}
-
-#email {
-    border-top: none;
-    border-bottom: none;
-}
-
-input[type="submit"] {
-    padding: 10px 25px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 45px;
-    box-shadow: 2px 2px 5px rgb(230, 230, 230);
-    background-color: black;
-    color: white;
-    letter-spacing: 0.1rem;
-    transition: 1s ease-in-out;
-}
-
-input[type="submit"]:hover {
-    background-color: rgba(207, 159, 198, 0.918);
+.connect .far,
+.connect .fab {
+    font-size: 36px;
+    color: var(--baby-periwinkle)
 }
 
 @media only screen and (min-width: 768px) {
-    .main-body {
-        padding-top: 125px;
-    }
     .contact-text-section {
         font-size: 18px;
         line-height: 30px;
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+    .contact-icon-container {
+        margin: 0 auto;
+        width: 60%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
+    .main-contact {
+        padding: 100px 0;
+        margin-bottom: 0;
+    }
+    .contact-grid {
+        display: block;
+        margin-bottom: 0;
+    }
     .contact-text-section {
         font-size: 20px;
         line-height: 32px;
+        width: 60%;
+        margin-bottom: 0;
     }
-    .contact-grid {
-        padding: 40px 0;
-        width: 65%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 75px;
+    .contact-text-caption {
+        text-align: left;
+        padding: 20px 0;
     }
-    .contact-form-section {
-        margin: 0;
-    }
-    .contact-form-section .connect {
-        margin: 0;
+    .contact-icon-container {
+        margin: 0 auto;
+        gap: 30px;
     }
 }
