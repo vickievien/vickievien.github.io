@@ -75,6 +75,10 @@ body.portfolio-body {
     background: none;
 }
 
+/* .main-portfolio .portfolio-title {
+    margin-bottom: 50px;
+} */
+
 .port-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -140,7 +144,7 @@ body.portfolio-body {
     border: 1px solid black;
     width: fit-content;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 20px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-weight: 400;
@@ -213,27 +217,26 @@ body.portfolio-body {
 .skill-container {
     text-align: center;
     padding: 30px;
-    /* background-color: var(--lightest-gray);
-    box-shadow: 5px 5px 15px var(--light-gray); */
-    box-shadow: 3px 3px 10px rgb(230, 230, 230);
+    box-shadow: 5px 5px 10px var(--light-gray);
     border: 1px solid black;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
-
 .skill-title {
+    margin: 30px 0 15px 0;
+    font-size: 26px;
     text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 30px 0 10px 0;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    line-height: 36px;
 }
 
 .skill-item {
     list-style: none;
-    line-height: 24px;
+    /* line-height: 24px; */
     font-size: 16px;
+    padding: 5px 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -269,10 +272,6 @@ body.portfolio-body {
 }
 
 /* CONNECT WITH ME SECTION */
-.page-title {
-    margin-bottom: 30px;
-}
-
 .contact-text-section {
     font-size: 16px;
     line-height: 28px;
