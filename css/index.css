@@ -220,7 +220,7 @@ body.portfolio-body {
 }
 
 .skill-title {
-    margin: 30px 0 15px 0;
+    margin: 15px 0;
     font-size: 26px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -230,9 +230,28 @@ body.portfolio-body {
 
 .skill-item {
     list-style: none;
-    /* line-height: 24px; */
     font-size: 16px;
     padding: 5px 0;
+}
+
+.tool-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.far,
+.fas,
+.fab {
+    font-size: 36px;
+    color: rgba(199, 144, 231, 0.769)
+}
+
+.vv-made {
+    width: 33px;
+    height: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -298,12 +317,6 @@ body.portfolio-body {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-}
-
-.connect .far,
-.connect .fab {
-    font-size: 36px;
-    color: var(--baby-periwinkle)
 }
 
 @media only screen and (min-width: 768px) {
