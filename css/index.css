@@ -256,7 +256,6 @@ body.portfolio-body {
     width: 350px;
     height: 350px;
     perspective: 1000px;
-    /* transform: translate3d(0,-1px,0) scale(1.03); */
     cursor: pointer;
 }
 
@@ -268,10 +267,6 @@ body.portfolio-body {
     transition: transform 1s;
     transform-style: preserve-3d;
 }
-/* 
-.card-scene:hover .card-container {
-    transform: rotateY (180deg);
-} */
 
 .skill-card-front,
 .skill-card-back {
@@ -283,35 +278,12 @@ body.portfolio-body {
 }
 
 .skill-card-back {
-    background-color: pink;
     transform: rotateY(180deg);
 }
 
 .card-container.flip {
-    transform: rotateY (180deg);
-    background-color: pink;
+    transform: rotateY(180deg);
 }
-
-/* .skill-card {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-.skill-card-front {
-    transition: all 0.5s ease;
-}
-
-.skill-card-back {
-    transform: rotateY (180deg);
-    background-color: palevioletred;
-}
-
-.skill-card.flip {
-    transform: rotateY (180deg);
-} */
 
 @media only screen and (min-width: 768px) {
     .main-body {
