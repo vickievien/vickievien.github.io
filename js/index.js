@@ -2,12 +2,12 @@ console.log('hello');
 
 function flipMe() {
     console.log(this);
-    this.parentElement.classList.toggle('flip');
+    this.classList.toggle('flip');
 }
 
 
-const skillCards = document.querySelectorAll('.skill-card');
-for (const n of skillCards) {
+const cardContainers = document.querySelectorAll('.card-container');
+for (const n of cardContainers) {
     n.addEventListener('click', flipMe);
 }
 

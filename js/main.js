@@ -17,16 +17,4 @@ document.addEventListener('DOMContentLoaded', function(event) {
     burger.addEventListener('click', toggleMe);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 });
