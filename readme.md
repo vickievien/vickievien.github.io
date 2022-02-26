@@ -11,6 +11,8 @@ Then created invidividual stylesheets for each separate page
 
 Originally I had my hero, portfolio and skills all separate pages. After a friend in UX looked at it, it made more sense to combine it into one, so had to re-work and consolidate. But I still kept bio and contact as separate pages. Then another UX friend said keep it consistent, either all separate, or all together. So together it is.
 
+Note: I created a resume page per requirements. But chose not to spend as much time on styling, as I do not plan to have this in my portfolio in the future. Instead, I chose to put my time and effort in creating a second project to call a cocktail API.
+
 
 # Link to Live Site
 Two options
