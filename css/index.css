@@ -5,7 +5,8 @@ body {
 }
 
 .hero {
-    background-image: url("../photo/vv-portfolio-hero.png");
+    /* background-image: url("../photo/vv-portfolio-hero.png"); */
+    background: linear-gradient(55deg, var(--baby-blue) 0%, var(--baby-periwinkle) 38%, var(--baby-pink) 85%);
     width: 100%;
     height: 95vh;
     display: flex;
@@ -13,11 +14,25 @@ body {
     align-items: center;
     background-size: cover;
     background-position: 75% 50%;
+    position: relative;
+}
+
+.hero:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(19, 19, 19, 0.21);
+    content: "";
 }
 
 .hero-text-container {
     width: 60%;
     margin-left: 50px;
+    /* color: black; */
+    color: white;
+    z-index: 1;
 }
 
 .hero-title {
@@ -25,7 +40,7 @@ body {
     font-size: 18px;
     letter-spacing: 0.1rem;
     font-weight: 500;
-    color: white;
+    /* color: white; */
     margin-bottom: 10px;
 }
 
@@ -33,16 +48,18 @@ body {
     font-size: 38px;
     line-height: 54px;
     font-weight: 600;
-    color: white;
+    /* color: white; */
 }
 
 @media only screen and (min-width: 768px) {
     .hero {
-        background-position: 76% 50%;
+        height: 60vh;
     }
     .hero-text-container {
         width: 50%;
         margin-left: 70px;
+        /* margin: 20px 0 0 70px; */
+        padding-top: 50px;
     }
     .hero-title {
         font-size: 22px;
@@ -203,7 +220,7 @@ body.portfolio-body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
-    padding: 0 50px 75px 50px;
+    padding: 0 40px 75px 40px;
     margin: 0 auto;
 }
 
@@ -214,6 +231,11 @@ body.portfolio-body {
     border: 1px solid black;
     background-color: white;
     border-radius: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-title {
@@ -231,12 +253,23 @@ body.portfolio-body {
     padding: 5px 0;
 }
 
-.tool-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tool-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 15px 0;
+}
+
+.card-software .tool-list {
+    grid-template-columns: 1fr 1fr;
+}
+
+.tool-item-container {
+    list-style: none;
+}
+
+.tool-text {
+    padding-top: 5px;
 }
 
 .far,
@@ -249,40 +282,6 @@ body.portfolio-body {
 .vv-made {
     width: 33px;
     height: auto;
-}
-
-/* FLIP CARD ON CLICK */
-.card-scene {
-    width: 350px;
-    height: 350px;
-    perspective: 1000px;
-    cursor: pointer;
-}
-
-.card-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    cursor: pointer;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-}
-
-.skill-card-front,
-.skill-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-.skill-card-back {
-    transform: rotateY(180deg);
-}
-
-.card-container.flip {
-    transform: rotateY(180deg);
 }
 
 @media only screen and (min-width: 768px) {
@@ -316,6 +315,53 @@ body.portfolio-body {
         font-size: 20px;
     }
 }
+
+/* FLIP CARD ON CLICK */
+.card-scene {
+    width: 100%;
+    min-height: 350px;
+    perspective: 1000px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-card-front,
+.skill-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.skill-card-back {
+    transform: rotateY(180deg);
+}
+
+.card-container.flip {
+    transform: rotateY(180deg);
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+
 
 /* CONNECT WITH ME SECTION */
 .main-contact {

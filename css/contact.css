@@ -28,7 +28,8 @@
 
 .far,
 .fab {
-    font-size: 28px;
+    font-size: 36px;
+    color: rgba(199, 144, 231, 0.769)
 }
 
 /* FORM SECTION */
