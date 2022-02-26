@@ -292,7 +292,17 @@ body.portfolio-body {
 .connect .fas,
 .connect .fab {
     font-size: 36px;
-    color: rgba(199, 144, 231, 0.769)
+    color: rgba(199, 144, 231, 0.769);
+    transition: 1s ease-in-out;
+}
+
+.tool-item-container .far:hover,
+.tool-item-container .fas:hover,
+.tool-item-container .fab:hover,
+.connect .far:hover,
+.connect .fas:hover,
+.connect .fab:hover {
+    color: rgba(235, 117, 162, 0.769);
 }
 
 .vv-made {
