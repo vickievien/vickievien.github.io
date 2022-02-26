@@ -143,7 +143,7 @@ body {
 
 /* This is the hero section */
 .ww-hero-section {
-    min-height: 400px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,45 +206,79 @@ body {
     background-color: black;   
 }
 
+.ww-hero-section .ww-btn {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.ww-hero-section .ww-btn:hover {
+    background-color: black;
+    background-color: var(--golden-brown);
+}
+
 @media only screen and (min-width: 768px) {
     .ww-hero-section {
-        padding-left: 1rem;
-        min-height: 600px
+        min-height: 600px;
         justify-content: flex-start;
-        
+        align-items: flex-start;
     }
     .ww-hero-content-container {
-        width: 45vw;
+        width: 80vw;
+        height: auto;
+        padding: 0 60px 60px 60px;
+        background-color: transparent;
+        display: block;
+        margin-top: 100px;
+    }
+    .ww-hero-text-container {
+        display: block;
+        text-align: left;
     }
     .ww-hero-text {
-        width: 95%
+        margin: 20px 0;
     }
     .ww-btn {
-        width: 80%;
+        width: fit-content;
+        margin: 0;
+        display: block;
+    }
+    .ww-hero-section .ww-btn {
+        margin: 0;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .ww-hero-section {
-        padding-left: 5rem;
-        min-height: 600px;
-        justify-content: flex-start;
+        padding-left: 2rem;
+        min-height: 100vh;
+        align-items: center;
     }
     .ww-hero-content-container {
-        padding: 60px;
+        padding: 0 60px 60px 60px;
+        margin-top: 0;
+        width: 65vw;
     }
     .ww-hero-head {
         font-size: 2.5rem;
         font-weight: 900;
+        text-align: left;
     }
     .ww-hero-text {
-        width: 85%;
+        width: 75%;
         font-size: 18px;
         line-height: 2rem;
+        text-align: left;
+        /* margin-left: 0; */
+        margin-bottom: 20px;
     }
-    .ww-btn {
-        width: 60%;
+    /* .ww-btn {
+        width: fit-content;
+        margin: 0;
+        display: block;
     }
+    .ww-hero-section .ww-btn {
+        margin: 0;
+    } */
 }
 
 /* This is the nightlife section */
@@ -1295,7 +1329,6 @@ input[type="string"] {
 }
 
 .transpo-pic {
-    background-color: blueviolet;
     height: 75px;
     width: 75px;
     object-fit: cover;
