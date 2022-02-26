@@ -9,9 +9,8 @@ For each page:
 Created a main.css to house all nav, footer and any global styles.
 Then created invidividual stylesheets for each separate page
 
-Originally I had my hero, portfolio and skills all separate pages. After a friend in UX looked at it, it made more sense to combine it into one, so had to re-work and consolidate. But I still kept bio and contact as separate pages.
+Originally I had my hero, portfolio and skills all separate pages. After a friend in UX looked at it, it made more sense to combine it into one, so had to re-work and consolidate. But I still kept bio and contact as separate pages. Then another UX friend said keep it consistent, either all separate, or all together. So together it is.
 
-After updates
 
 # Link to Live Site
 Two options

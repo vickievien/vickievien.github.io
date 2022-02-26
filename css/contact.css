@@ -1,4 +1,4 @@
-.page-title {
+.main-body-contact .page-title {
     margin-bottom: 30px;
 }
 
@@ -147,7 +147,7 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    .main-body {
+    .main-body-contact {
         padding-top: 125px;
     }
     .contact-text-section {

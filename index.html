@@ -40,10 +40,13 @@
                                 <a href="#skills">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a href="bio.html">Bio</a>
+                                <a href="#bio">Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html">Contact</a>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="resume.html">Resume</a>
                             </li>
                         </ul>
                     </div>
@@ -53,10 +56,11 @@
 
         <section class="hero">
             <div class="hero-text-container">
-                <h1 class="hero-title">Hey there, I'm Vickie!</h1>
+                <h1 class="hero-title"><span class="underline">Hey there, I'm Vickie!</span></h1>
                 <h2 class="hero-subtitle">I bring designs to life through pixel perfect coded solutions to optimize performance</h2>
             </div>
         </section>
+
 
         <section class="main-body main-portfolio" id="portfolio">
             <h1 class="page-title">Portfolio</h1>
@@ -71,15 +75,25 @@
                         <a class="proj-button" href="projects/Wandering_Wanderlust/" target="_blank">View</a>
                     </div>
             </section>
+            <section class="global-grid port-grid">
+                <a class="proj-pic-a" href="projects/Wandering_Wanderlust/" target="_blank">
+                    <img class="proj-pic proj-pic-1" src="photo/vv-wireframe-devices-mockup.png" alt="Wandering Wanderlust">
+                </a>
+                <div class="proj-text-container">
+                    <h3 class="proj-featured">Featured Project</h3>
+                    <h2 class ="proj-title">The Wandering Wanderlust</h2>
+                    <p class="proj-caption">Searching for inspiration or curious about traveling to Japan? See what this rich-in-culture country has to offer in the Japan Edition of The Wandering Wanderlust's travel site. Let's daydream together of the adventures to be had in this legendary country.</p>
+                    <a class="proj-button" href="projects/Wandering_Wanderlust/" target="_blank">View</a>
+                </div>
+            </section>
         </section>
+
 
         <section class="main-body main-skills" id="skills">
             <h1 class="page-title">Skills</h1>
-            <section class="global-grid skills-grid">
-                
+            <section class="global-grid skills-grid">               
                 <div class="card-scene">
-                    <div class="card-container card-technical">
-                        
+                    <div class="card-container card-technical">                       
                         <article class="skill-container skill-card-front">
                             <h2 class="skill-title">Technical Skills</h2>
                                 <ul class="tool-list">
@@ -110,11 +124,8 @@
                         </article>
                     </div>
                 </div>
-                
-
                 <div class="card-scene">
                     <div class="card-container card-software">
-
                         <article class="skill-container skill-card-front">
                             <h2 class="skill-title">Software Competencies</h2>
                                 <ul class="tool-list">
@@ -128,7 +139,6 @@
                                     </li>
                                 </ul>
                         </article>
-
                         <article class="skill-container skill-card-back">
                             <h2 class="skill-title">Software Competencies</h2>
                             <ul class="skill-list">
@@ -141,10 +151,8 @@
                         </article>
                     </div>
                 </div>                
-
                 <div class="card-scene">
                     <div class="card-container card-soft">
-                        
                         <article class="skill-container skill-card-front">
                             <h2 class="skill-title">Soft Skills</h2>
                             <ul class="skill-list">
@@ -155,7 +163,6 @@
                                 <li class="skill-item tech-item">Detail oriented</li>
                             </ul>
                         </article>
-
                         <article class="skill-container skill-card-back">
                             <h2 class="skill-title">Soft Skills</h2>
                             <ul class="skill-list">
@@ -167,15 +174,36 @@
                             </ul>
                         </article>
                     </div>
-                </div>
-
-                
-                
+                </div>               
             </section>
         </section>
 
-        <section class="main-body main-contact">
-            <h1 class="page-title">Connect with Me</h1>
+
+        <section class="main-body main-body-bio" id="bio">
+            <h1 class="page-title bio-title ">Hello! </br>I'm Vickie</h1>
+            <img class="vv-bio-pic" src="photo/vv-bio-pic.jpg" alt="Vickie Vien Bio Photo">
+            <div class="bio-text-container">
+                <p class="bio-text">
+                I'm a market researcher and hospitality manager turned developer. I enjoy making connections with others and thrive when it comes to the little details. It's what separates a pixel perfect design from a mediocre one, or code that executes flawlessly from one that is broken.
+                </p>
+                <p class="bio-text">
+                I'm most in my element when I'm learning, exploring and constantly out of my comfort zone, whether it be reading lines of new foreign code to traveling off the beaten path alone in a foreign country. There's nothing like learning and putting new skills to use IRL (in real life)!
+                </p>
+                <p class="bio-text">
+                As a certified front-end web developer with a Communication degree, I believe that a working knowledge of the back-end is crucial to excel as a front-end developer. So here I am, on my way to receiving a Software Engineering certificate from General Assembly. If you've gotten this far and want to chat, feel free to reach out and say hello.
+                <!-- </br>
+                </br>   -->
+                <a href="contact.html" target="_blank" class="contact-link">Get in touch!</a>
+                </br>
+                </br>
+                <img class="vv-bio-signature" src="logo/Vickie_Vien.svg" alt="vickie vien logo">
+                </p>
+            </div>  
+        </section>
+
+
+        <section class="main-body main-body-contact" id="contact">
+            <h1 class="page-title">Contact</h1>
             <section class="global-grid contact-grid">
                 <section class="contact-text-section">
                     <p class="contact-text-caption">I enjoy building relationships with dedicated individuals who want to make this world a better place. Two minds are better than one. Let's connect!</p>
@@ -191,7 +219,27 @@
                         </p>                    
                     </div>
                 </section>
-            </section>
+                <section class="contact-form-section">
+                    <p class="contact-form-title">Send me a message:</p>  
+                    <form action="#" method="post" class="contact-form">
+                        <fieldset class="contact-form-container">
+                            <div class="form-row row-1">
+                                <input type="text" name="fname" id="fname" required="required" placeholder="First Name">
+                                <input type="text" name="lname" id="lname" required="required" placeholder="Last Name">
+                            </div>
+                            <div class="form-row row-2">
+                                <input type="email" name="email" id="email" required="required" placeholder="Email">
+                            </div>
+                            <div class="form-row row-3">
+                                <textarea name="message" id="message" required="required" placeholder="Type your message here."></textarea>
+                            </div>
+                            <div class="">
+                                <input type="submit" value="submit">
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </section>      
         </section>
 
 
