@@ -638,12 +638,12 @@ textarea::placeholder {
 
 input[type="submit"] {
     display: block;
+    min-height: 20px;
     padding: 10px 45px;
     box-shadow: 3px 3px 10px rgb(230, 230, 230);
     border: 1px solid black;
     width: fit-content;
     margin: 15px auto 0 auto;
-    /* margin-top: 15px; */
     border-radius: 20px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
