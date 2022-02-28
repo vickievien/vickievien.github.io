@@ -1,3 +1,4 @@
+// 1. BURGER NAV
 document.addEventListener('DOMContentLoaded', function(event) {
 
     function toggleMe(e) {
@@ -16,5 +17,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     const burger = document.querySelector('.burger');
     burger.addEventListener('click', toggleMe);
 
-
 });
+
+// 2. FLIPPING SKILL CARDS & 3. HERO STYLING ON HOVER. SEE INDEX.JS

@@ -196,7 +196,9 @@ body.portfolio-body {
     .proj-caption {
         text-align: left;
     }
-    
+    .proj-title {
+        margin: 10px 0;
+    }
     .proj-caption {
         font-size: 18px;
         line-height: 30px;
