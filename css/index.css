@@ -177,6 +177,50 @@ body.portfolio-body {
     transition: transform 650ms;
 }
 
+/* COMING SOON MODAL */
+.coming-soon-grid-item {
+    position: relative;
+}
+
+.coming-soon-modal {
+    position: absolute;
+    top: 0;
+    width: 280px;
+    height: 425px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.coming-soon-modal.visible {
+    display: flex;
+}
+
+.coming-soon-title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.coming-soon-subtitle {
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.coming-soon-button {
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 768px) {
     .port-grid {
@@ -206,6 +250,11 @@ body.portfolio-body {
     .proj-button {
         margin-left: 0;
     }
+    .coming-soon-modal {
+        margin-left: -10px;
+        width: 300px;
+        height: 250px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -217,6 +266,11 @@ body.portfolio-body {
     .proj-caption {
         font-size: 20px;
         line-height: 32px;
+    }
+    .coming-soon-modal {
+        margin-left: -10px;
+        width: 410px;
+        height: 220px;
     }
 }
 
