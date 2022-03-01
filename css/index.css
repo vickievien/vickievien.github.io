@@ -46,11 +46,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* .underline {
-    border-bottom: 2px solid black;
-    padding-bottom: 3px;
-} */
-
 .hero-subtitle {
     font-size: 38px;
     line-height: 60px;
@@ -712,6 +707,56 @@ input[type="submit"]:hover {
     transition: transform 650ms;
 }
 
+/* FORM COMING SOON MODAL POP UP*/
+/* .coming-soon-grid-item {
+    position: relative;
+} */
+.contact-form-section {
+    position: relative;
+}
+
+.form-soon-modal {
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.form-soon-modal.visible {
+    display: flex;
+}
+
+.form-soon-title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.form-soon-subtitle {
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.form-soon-subtitle a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* .form-soon-button {
+    cursor: pointer;
+} */
+
 @media only screen and (min-width: 768px) {
     .main-body-contact {
         padding-top: 125px;
@@ -735,6 +780,9 @@ input[type="submit"]:hover {
     }
     .contact-form-title {
         font-size: 18px;
+    }
+    .form-soon-modal {
+        height: 240px;
     }
 }
 

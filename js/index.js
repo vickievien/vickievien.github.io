@@ -31,3 +31,10 @@ const showAndHide = () => {
 }
 const comingSoonBtn = document.querySelector('.coming-soon-button');
 comingSoonBtn.addEventListener('click', showAndHide);
+
+// 5. COMING SOON FORM
+const showForm = () => {
+    document.querySelector('.form-soon-modal').classList.toggle('visible');
+}
+const formSoonBtn = document.querySelector('input[type="submit"]');
+formSoonBtn.addEventListener('mouseover', showForm);
