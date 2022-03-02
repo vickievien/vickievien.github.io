@@ -31,7 +31,21 @@ www.vickievien.com
 # Installation Instructions
 Not applicable. No installation needed to view website
 
-# Additional Notes
+# Additional Notes - Issues to be fixed in the Future
+NAV HAMBURGER ON MOBILE (BOTH DEV TOOLS AND REAL MOBILE DEVICE):
+Currently, the only way to close the nav, is if you click on the hamburger again.
+
+Ideally, I would like to click a link, have it scroll to the section AND close the nav.
+
+However, right now, I can only seem to do either. I can either click on the nav link and it'll close the nav section, but it won't scroll to the section (e.g. clicked on Portfolio, nav section closes, but doesn't scroll to portfolio section). 
+
+Or I can do the opposite, click on a nav link, it'll scroll to the section, but it won't close the nav section.
+
+Would love to have both, but not sure why, if I add an event listener on the nav items, it'll close the section but won't scroll to the section as well.
+
+In main.js lines 23-27 would close the nav section, but won't have it scroll to the section, so for now, I'd rather it scroll to the right section and not close (unless I click the hamburger) so I grayed it out for now. That way, I can access the code at a later time.
+
+
 PORTFOLIO SECTION:
 In the deployed version (vickievien.com), if you click on the Wandering Wanderlust image or the "view" button for the project, it'll open up a new page with the project.
 
@@ -39,7 +53,8 @@ However, if I open up index.html (locally), for some odd reason, when I click on
 
 Not sure why deployment works but local server doesn't. It's beyond me.
 
-FORM SUBMIT BUTTON
+
+FORM SUBMIT BUTTON ON MOBILE (ON A REAL MOBILE DEVICE - NOT DEV TOOLS)
 On the mobile version in dev tools, the submit button shows and works perfectly fine in the deployed/live server version (vickievien.com).
 
 However, if you go to vickievien.com on an actual mobile device, the text "submit" inside the form submit button disappears. 

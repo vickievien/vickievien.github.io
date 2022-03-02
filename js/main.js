@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     function toggleMe(e) {
         e.preventDefault();
     
+        console.log('hello');
+        
         document.querySelector('.right-nav-list').classList.toggle('nav-toggle');
 
         const navItems = document.querySelectorAll('.nav-item');
@@ -17,6 +19,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
     const burger = document.querySelector('.burger');
     burger.addEventListener('click', toggleMe);
 
+
+    // const navLinks = document.querySelectorAll('.nav-item');
+
+    // navLinks.forEach(n => {
+    //     n.addEventListener('click', toggleMe);
+    // });
+    
 });
 
 // 2-5. SEE INDEX.JS
