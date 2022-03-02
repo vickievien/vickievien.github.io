@@ -30,3 +30,18 @@ www.vickievien.com
 
 # Installation Instructions
 Not applicable. No installation needed to view website
+
+# Additional Notes
+PORTFOLIO SECTION:
+In the deployed version (vickievien.com), if you click on the Wandering Wanderlust image or the "view" button for the project, it'll open up a new page with the project.
+
+However, if I open up index.html (locally), for some odd reason, when I click on the Wandering Wanderlust image or the view button for the project, in a separate tab, it just shows a list of the files, not the project.
+
+Not sure why deployment works but local server doesn't. It's beyond me.
+
+FORM SUBMIT BUTTON
+On the mobile version in dev tools, the submit button shows and works perfectly fine in the deployed/live server version (vickievien.com).
+
+However, if you go to vickievien.com on an actual mobile device, the text "submit" inside the form submit button disappears. 
+
+Why does it show in dev tools when it's mobile size and not on a real mobile device is also beyond me.

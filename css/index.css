@@ -697,10 +697,13 @@ input[type="submit"] {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    transition: transform 650ms;
 }
 
 @media only screen and (min-width: 768px) {
+    input[type="submit"] {
+        transition: transform 650ms;
+    }
+
     input[type="submit"]:hover {
         transform: translateY(-5px);
         transition: transform 650ms;
