@@ -15,8 +15,7 @@ My second round: A UX friend said it looked too bare on each page, and expected 
 
 My third round: Another UX friend said that if I choose parallax scrolling, it should all be parallax or if I choose to do separate pages, all should be separate pages, so then I decided to consolidate and make everything into one page for parallax scrolling. I still kept my main.css style separate for header/footer in case in the event I do choose to separate out the pages down the road.
 
-
-One thing to note: I created a resume page per project requirements to show work experience. But I chose not to spend as much time on styling with CSS, as I do not plan to have this in my portfolio in the future. I have a link that downloads my resume into a PDF should a recruiter be interested in my resume in the contact section. In place of spending time on styling the resume, I chose to put my time and effort in creating a second project to call a cocktail API.
+One thing to note: I created a resume page per project requirements to show work experience. But I chose not to spend as much time on styling with CSS, as I do not plan to have this in my portfolio in the future. I have a link that downloads my resume into a PDF should a recruiter be interested in my resume in the contact section. In place of spending time on styling the resume, I chose to put my time and effort in starting a second project to call a cocktail API.
 
 
 # Link to Live Site
