@@ -1,7 +1,6 @@
 // 1. BURGER NAV. SEE MAIN.JS
 
 // 2. FLIPPING SKILL CARDS
-
 function flipMe() {
     console.log(this);
     this.classList.toggle('flip');

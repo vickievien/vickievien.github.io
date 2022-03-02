@@ -19,4 +19,4 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 });
 
-// 2. FLIPPING SKILL CARDS & 3. HERO STYLING ON HOVER. SEE INDEX.JS
+// 2-5. SEE INDEX.JS
