@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
     function toggleMe(e) {
         e.preventDefault();
-    
-        console.log('hello');
-        
+        document.querySelector('.burger i').classList.toggle('fa-bars');
+
+        document.querySelector('.burger i').classList.toggle('fa-times');
+
         document.querySelector('.right-nav-list').classList.toggle('nav-toggle');
 
         const navItems = document.querySelectorAll('.nav-item');
-
         for (const n of navItems) {
             n.classList.toggle('nav-toggle');
         }
