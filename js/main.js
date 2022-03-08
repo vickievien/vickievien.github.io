@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     //     n.addEventListener('click', toggleMe);
     // });
     
+    console.log('hello');
 });
 
 // 2-5. SEE INDEX.JS
