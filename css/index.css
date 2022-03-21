@@ -101,6 +101,10 @@ body.portfolio-body {
     background: none;
 }
 
+.main-body.main-portfolio {
+    margin: 0 30px;
+}
+
 .port-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -228,6 +232,9 @@ body.portfolio-body {
 }
 
 @media only screen and (min-width: 768px) {
+    .main-body.main-portfolio {
+        margin: 0 50px;
+    }
     .port-grid {
         margin-bottom: 125px;
         grid-template-columns: 1fr 1fr;
