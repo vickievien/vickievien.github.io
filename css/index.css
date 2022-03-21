@@ -158,6 +158,11 @@ body.portfolio-body {
     line-height: 28px;
 }
 
+.proj-button-container {
+    display: flex;
+    gap: 10px;
+}
+
 .proj-button {
     width: fit-content;
     margin: 0 auto;
