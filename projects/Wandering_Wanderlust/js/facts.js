@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
         weathIcon = document.querySelector(".weather-icon");
         weathIconData = tokyoData.weather[0].icon;
-        weathIconUrl = `http://openweathermap.org/img/wn/${weathIconData}@2x.png`
+        weathIconUrl = `https://openweathermap.org/img/wn/${weathIconData}@2x.png`
         
         weathIcon.setAttribute('src', weathIconUrl)
 
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
         const currTag = document.createElement('h2');
         currTag.classList.add('fact-sect-title', 'jpy-curr');
-        currTag.innerText = `¥${currData.data.JPY.toFixed(2)}`
+        currTag.innerText = `¥${currData.data.JPY.value.toFixed(2)}`
         document.querySelector('.currency-sect').appendChild(currTag);
 
         baseCurrDisp.value = "1";
