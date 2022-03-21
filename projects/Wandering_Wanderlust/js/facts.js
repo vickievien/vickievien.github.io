@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             e.preventDefault();
     
             const baseCurrValtoNum = parseInt(baseCurrDisp.value);
-            const usJpyConv = baseCurrValtoNum * currData.data.JPY;
+            const usJpyConv = baseCurrValtoNum * currData.data.JPY.value;
             
             // tarCurrDisp.value = usJpyConv.toFixed(2);
             document.querySelector('.jpy-curr').innerText = `¥${usJpyConv.toFixed(2)}`;
