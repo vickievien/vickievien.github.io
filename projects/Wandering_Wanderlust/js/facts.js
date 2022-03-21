@@ -57,11 +57,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
     const entCurrBtn = document.querySelector('#enter-curr');
 
     async function callCurr() {
-        let currUrl = `https://freecurrencyapi.net/api/v2/latest?apikey=${currApiKey}`
+        let currUrl = `https://api.currencyapi.com/v3/latest?apikey=${currApiKey}`
         const currResp = await fetch(currUrl);
         const currData = await currResp.json();        
 
-        // console.log(currData);
+        console.log(currData);
 
         const currTag = document.createElement('h2');
         currTag.classList.add('fact-sect-title', 'jpy-curr');
