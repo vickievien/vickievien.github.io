@@ -358,7 +358,7 @@ body.portfolio-body {
 }
 
 .card-software .tool-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .tool-item-container {
