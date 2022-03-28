@@ -157,9 +157,15 @@ body.portfolio-body {
 }
 
 .proj-caption {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
     line-height: 28px;
+}
+
+.proj-stack {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .proj-button-container {
@@ -257,6 +263,7 @@ body.portfolio-body {
     .proj-caption {
         font-size: 18px;
         line-height: 30px;
+        margin-bottom: 10px;
     }
     .proj-button {
         margin-left: 0;
@@ -277,6 +284,10 @@ body.portfolio-body {
     .proj-caption {
         font-size: 20px;
         line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .proj-stack {
+        margin-bottom: 20px;
     }
     .coming-soon-modal {
         margin-left: -10px;
