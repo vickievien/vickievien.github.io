@@ -33,30 +33,6 @@ body {
     transition: transform 1.5s;
 }
 
-/* .hero-text-container:hover {
-    transform: translateX(50px);
-    transition: transform 1.5s;
-}
-
-.hero-title {
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-}
-
-.hero-subtitle {
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 60px;
-    letter-spacing: 0.1rem;
-    white-space: nowrap;
-    width: 0;
-    overflow: hidden;
-    border-right: 3px solid white;
-} */
-
 .hero-title {
     margin-bottom: 10px;
     font-size: 18px;
@@ -86,15 +62,15 @@ body {
     animation: typing calc(var(--n)*.175s) linear infinite alternate;
 }
 
-  @keyframes typing{
+@keyframes typing{
     from {background-size:0 200%}
-  }
+}
   
-  .clip {
+.clip {
     color:#0000;
     -webkit-background-clip:text;
     background-clip:text;
-  }
+}
 
 @media only screen and (min-width: 390px) {
     .hero {
@@ -432,6 +408,24 @@ body.portfolio-body {
     transform: scale(1.15);
 }
 
+.card-arrow {
+    color: rgba(199, 144, 231, 0.769);
+    position: absolute;
+    bottom: 20px;
+    animation: slideArrow 3s infinite;
+}
+
+@keyframes slideArrow {
+    0% {
+        transform: translateX(0)
+    }
+    50% {
+        transform: translateX(10px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
 .vv-made {
     width: 33px;
     height: auto;
@@ -447,6 +441,10 @@ body.portfolio-body {
     }
     .skill-item {
         font-size: 18px;
+    }
+    .card-arrow {
+        right: 35px;
+        bottom: 20px;
     }
 }
 

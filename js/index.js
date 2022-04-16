@@ -25,11 +25,14 @@ for (const n of cardContainers) {
 // heroText.addEventListener('mouseleave', revertColor); 
 
 // 4. COMING SOON PROJECT
-const showAndHide = () => {
-    document.querySelector('.coming-soon-modal').classList.toggle('visible');
+if (document.querySelector('.coming-soon-modal')) {
+    const showAndHide = () => {
+        document.querySelector('.coming-soon-modal').classList.toggle('visible');
+    }
+    const comingSoonBtn = document.querySelector('.coming-soon-button');
+    comingSoonBtn.addEventListener('click', showAndHide);
 }
-const comingSoonBtn = document.querySelector('.coming-soon-button');
-comingSoonBtn.addEventListener('click', showAndHide);
+
 
 // 5. COMING SOON FORM
 const showForm = () => {

@@ -108,6 +108,27 @@ a:visited {
     font-size: 28px;
     text-align: center;
     list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-item:after {
+    opacity: 1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(68, 68, 68);
+    transition: opacity 300ms, transform 300ms;
+    transform: translate3d(-100%, 0, 0);
+}
+
+.nav-item:hover::after,
+.nav-item:focus::after {
+    transform: translate3d(0, 0, 0);
 }
 
 .nav-toggle {
@@ -144,7 +165,7 @@ a:visited {
     .right-nav-list {
         margin: 0;
         padding: 5px 0;
-        width: 100%;
+        /* width: 100%; */
         height: auto;
         display: flex;
         justify-content: flex-end;
@@ -164,6 +185,19 @@ a:visited {
         top: 0;
         left: 30px;
     }
+    .vickie-logo {
+        padding: 10px 0;
+    }
+    .right-nav-container {
+        padding-right: 10px;
+    }
+    .right-nav-list {
+        padding: 20px 30px;
+        gap: 30px;
+    }
+    .nav-item {
+        padding: 0 0 2px 0;
+    }
 }
 
 /* FOOTER SECTION */
@@ -179,4 +213,54 @@ footer {
     background-color: var(--lightest-gray);
     border-top: 1px solid var(--light-gray);
     font-size: 12px;
+}
+
+/* CURSOR STYLES */
+.cursor1 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid whitesmoke;
+    /* background-color: var(--baby-periwinkle); */
+    border-radius: 50%;
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%, -50%); */
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    display: none;
+}
+
+.cursor2 {
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid rgb(235, 235, 235); */
+    background-color: rgba(227, 205, 240, 0.51);
+    border-radius: 50%;
+    border-radius: 25px;
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%, -50%); */
+    transition: 0.4s;
+    transition-timing-function: ease-out;
+    display: none;
+}
+
+.cursor3 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--baby-blue);
+    border-radius: 50%;
+    border-radius: 25px;
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%, -50%); */
+    transition: 0.6s;
+    transition-timing-function: ease-out;
+    display: none;
 }
