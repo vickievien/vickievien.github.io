@@ -412,7 +412,7 @@ body.portfolio-body {
     color: var(--baby-periwinkle);
     position: absolute;
     bottom: 20px;
-    /* animation: slideArrow 3s infinite; */
+    animation: slideArrow 3s infinite;
 }
 
 @keyframes slideArrow {
