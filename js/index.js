@@ -12,17 +12,17 @@ for (const n of cardContainers) {
 }
 
 // 3. HERO STYLING ON HOVER
-const heroText = document.querySelector('.hero-text-container');
+// const heroText = document.querySelector('.hero-text-container');
 
-const colorChange = () => {
-    heroText.style.color = "rgba(65, 65, 65,1)";
-}
-heroText.addEventListener('mouseover', colorChange);
+// const colorChange = () => {
+//     heroText.style.color = "rgba(65, 65, 65,1)";
+// }
+// heroText.addEventListener('mouseover', colorChange);
 
-const revertColor = () => {
-    heroText.style.color = "white"; 
-}
-heroText.addEventListener('mouseleave', revertColor); 
+// const revertColor = () => {
+//     heroText.style.color = "white"; 
+// }
+// heroText.addEventListener('mouseleave', revertColor); 
 
 // 4. COMING SOON PROJECT
 const showAndHide = () => {

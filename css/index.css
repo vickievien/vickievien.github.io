@@ -33,7 +33,7 @@ body {
     transition: transform 1.5s;
 }
 
-.hero-text-container:hover {
+/* .hero-text-container:hover {
     transform: translateX(50px);
     transition: transform 1.5s;
 }
@@ -51,7 +51,50 @@ body {
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0.1rem;
+    white-space: nowrap;
+    width: 0;
+    overflow: hidden;
+    border-right: 3px solid white;
+} */
+
+.hero-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
+
+.hero-subtitle {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.1rem;
+}
+
+.type-container {
+    background:linear-gradient(white 0 0) 0 0;
+    background-size:calc(var(--n)*2.5ch) 100%;
+    background-repeat:no-repeat;
+    animation: typing calc(var(--n)*0.3s) linear infinite alternate;
+}
+
+.type {
+    background:linear-gradient(white 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    background-repeat:no-repeat;
+    animation: typing calc(var(--n)*.175s) linear infinite alternate;
+}
+
+  @keyframes typing{
+    from {background-size:0 200%}
+  }
+  
+  .clip {
+    color:#0000;
+    -webkit-background-clip:text;
+    background-clip:text;
+  }
 
 @media only screen and (min-width: 390px) {
     .hero {
