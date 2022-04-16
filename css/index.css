@@ -409,10 +409,10 @@ body.portfolio-body {
 }
 
 .card-arrow {
-    color: rgba(199, 144, 231, 0.769);
+    color: var(--baby-periwinkle);
     position: absolute;
     bottom: 20px;
-    animation: slideArrow 3s infinite;
+    /* animation: slideArrow 3s infinite; */
 }
 
 @keyframes slideArrow {
