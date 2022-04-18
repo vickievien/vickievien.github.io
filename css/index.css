@@ -59,7 +59,7 @@ body {
     background:linear-gradient(white 0 0) 0 0;
     background-size:calc(var(--n)*1ch) 200%;
     background-repeat:no-repeat;
-    animation: typing calc(var(--n)*.175s) linear infinite alternate;
+    animation: typing calc(var(--n)*.12s) linear infinite alternate;
 }
 
 @keyframes typing{
